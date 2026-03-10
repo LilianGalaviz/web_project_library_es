@@ -364,21 +364,17 @@
   align-items: flex-start;
 }
 
-.footer__column:first-child {
-  margin-right: auto;
-}
-
 .footer__column {
   display: flex;
   flex-direction: column;
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin-right: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
